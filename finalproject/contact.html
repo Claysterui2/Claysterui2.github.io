@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    Clayton McCarty
+    contact.html
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bingle Burger Bonanza!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <p>Preferred Contact Method:</p>
+            <input type="radio" id="email" name="contact" value="email">
+            <label for="email">Email</label>
+            <input type="radio" id="phone" name="contact" value="phone">
+            <label for="phone">Phone</label>
+
+            <p>Which services interest you?</p>
+            <input type="checkbox" id="catering" name="interest" value="catering">
+            <label for="catering">Serving Food</label>
+            <input type="checkbox" id="events" name="interest" value="events">
+            <label for="events">Cooking Food</label>
+
+            <p></p>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <p></p>
+            <p>Preferred Time for Contact:</p>
+            <select id="time" name="time">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>Contact us at: <a href="mailto:info@burgerbonanaza.com">info@bingleburgerbonanza.com</a></p>
+        <p>Find us on <a href="https://www.instagram.com" target="_blank">Instagram</a> and <a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
